@@ -1,0 +1,15 @@
+name: Update gist with EverydayNew
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Update gist
+        uses: Ravello-H/EverydayNew@master
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 8e9da611099b3a768fe3ef410edcbb22babe5555
