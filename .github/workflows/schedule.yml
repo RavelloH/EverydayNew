@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: Ravello-H/EverydayNew@master
+        uses: Ravello-H/EverydayNew@main
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: b2192f82e34f88520f351246672f0c6c
