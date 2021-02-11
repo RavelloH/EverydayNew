@@ -12,4 +12,4 @@ jobs:
         uses: Ravello-H/EverydayNew@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 8e9da611099b3a768fe3ef410edcbb22babe5555
+          GIST_ID: b2192f82e34f88520f351246672f0c6c
