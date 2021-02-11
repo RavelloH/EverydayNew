@@ -1,7 +1,7 @@
 name: Update gist with EverydayNew
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   update-gist:
