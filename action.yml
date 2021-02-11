@@ -1,0 +1,17 @@
+name: "EverydayNew"
+
+description: "Do something to keep your Gist new!"
+
+branding:
+
+  icon: "clipboard"
+
+  color: "blue"
+
+runs:
+
+  using: "node12"
+
+  main: "dist/index.js"
+
+© 
